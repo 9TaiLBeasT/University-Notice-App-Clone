@@ -47,7 +47,10 @@ target/
 build/
 
 ### Package Files ###
+# Ignore all .jar files except those in lib/
 *.jar
+!lib/*.jar
+
 *.war
 *.ear
 *.zip
